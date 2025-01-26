@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="css/Home.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Kartik Sonar</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Project.html">Project</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="left-section">
+                <div>Hello!</div>
+                I'am <span class="text1">Kartik Sonar</span>
+                <div>and I'am a <span id="element"></span>
+                </div>
+                <div class="add-text">
+                    <i>
+                        Passionate about Software Development and Innovation & Seeking
+                        Opportunities as a Full stack java developer to Contrubute to Tech
+                        Excellence
+                    </i>
+                </div>
+                <div class="btn">
+                    <button><a href="Documents/Kartik_Sonar.pdf">View Resume</a></button>
+                    <button>
+                        <a href="https://github.com/kartik-sonar123">Visit GitHub</a>
+                    </button>
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="img/myphoto.jpeg" alt="myphoto" />
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>Email: <a href="mailto:kartiksonar89@gmail.com">kartiksonar89@gmail.com<a><p>
+            <p>Phone:+919370377395</p>
+            <div class="social-icons"
+               <a href="https://linkedin.com/in/kartik-sonar" target="_blank">LinkedIn</a>|
+               <a href="https://github.com/kartiksonar" target="_blank">GitHub</a>
+             </div>
+              <p>© 2025 Kartik Sonar. All rights reserved.</p>
+              <a href="#top" class="up">Back to Top</a>
+        </div>
+    </footer>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['java developer', 'web developer'],
+            typeSpeed: 60,
+        });
+    </script>
+</body>
+
+</html>
