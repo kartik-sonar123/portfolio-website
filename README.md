@@ -21,12 +21,12 @@
 <ul>
     <li><strong>HTML5</strong>: For structuring the webpage content.</li>
     <li><strong>CSS3</strong>: For styling the webpage</li>
-    <li><strong>Type.js</strong>: For creating dynamic text animations and a more engaging user experienc</li>
+    <li><strong>Type.js</strong>: For creating dynamic text animations and a more engaging user experience</li>
 </ul>
 <hr>
 <h2>View Live</h2>
 <p>Check out the live version of the portfolio here:</p>
 <p>
-    <a href="https://kartik-sonar123.github.io/portfolio/" target="_blank"><strong>Portfolio App - Live Demo</strong></a>
+    <a href="https://kartik-sonar123.github.io/portfolio-website/" target="_blank"><strong>Portfolio App - Live Demo</strong></a>
 </p>
 
